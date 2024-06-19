@@ -1,0 +1,478 @@
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../fonts/GolosText-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../fonts/GolosText-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Golos Text';
+	src: url('../fonts/GolosText-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../fonts/Merriweather-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../fonts/Merriweather-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+
+
+body {
+}
+/* header start */
+
+
+
+
+.header-wrapper {
+   min-width: 1920px;
+   min-height: 700px; 
+   position: relative;
+}
+
+.logo {
+   display: flex;
+   height: 36px;
+   align-items: center;
+   padding-top: 26px;
+   padding-left: 358px;
+}
+
+.logo img {
+   width: 92px;
+   
+}
+
+
+.logo-caption {
+   font-family: 'Golos Text', sans-serif;
+   margin-left: 5px;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 1.08;
+   text-transform: uppercase;
+   word-spacing: 1px;
+   letter-spacing: 0.4px;
+   color: #595653;
+}
+
+.background-img {
+   position: absolute;
+   z-index: -1;
+   top: 0;
+   left: 0;
+   margin: 0 auto;
+   width: 100%;
+   height: 100%;
+}
+
+
+.title {
+   padding-left: 349px;
+}
+
+.title-caption {
+   display: inline-block;
+   color: #313131;
+   margin-top: 75px;
+}
+
+.title-caption-1 {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 1.1;
+   text-align: start;
+   margin-left: 7px;
+   text-transform: uppercase;
+}
+
+.title-caption-2 {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 1.1;
+   text-align: center;
+   margin-left: 6px;
+   text-transform: uppercase;
+}
+
+.title-caption-3 {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 400;
+   font-size: 60px;
+   line-height: 1.1;
+   text-align: center;
+   margin-left: 42px;
+   text-transform: uppercase;
+}
+
+.title-caption-4 {
+   font-family: 'Golos Text', sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 1.29;
+   margin-top: 24px;
+   margin-left: 7px;
+   text-align: center;
+   color: #313131;
+}
+
+.button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 542px;
+   margin-top: 38px;
+   margin-left: 7px;
+   margin-bottom: 132px;
+}
+
+.button a {
+   font-family: 'Golos Text', sans-serif;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 1.3;
+   text-align: center;
+   border-radius: 66px;
+   padding: 14px;
+   width: 263px;
+   height: 72px;
+   text-decoration: none;
+   
+}
+
+.button-black {
+   background: #1f1f1f;
+   color: #fff;
+   margin-right: 16px;
+   
+}
+
+.button-transparent {
+   color: #1f1f1f;
+   border: 2px solid #1f1f1f;
+}
+
+/* header end */
+
+/* main start */
+
+main {
+   
+}
+
+.marquee-infinite {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 400;
+   color: #fff;
+   font-size: 22px;
+   line-height: 1.1;
+   text-transform: uppercase;
+   padding-top: 18px;
+   max-width: 100%;
+   height: 60px;
+   overflow: hidden;
+   background: #f54932;
+   
+}
+
+.marquee-infinite div {
+   display: inline-flex;
+   
+   width: 200%;
+   animation: marquee-infinite 20s linear infinite;
+   
+}
+
+.marquee-infinite p {
+   white-space: nowrap;
+   /* margin-right: 5px; */
+}
+
+.marquee-infinite-svg {
+   vertical-align: middle;
+   margin: auto 7px;
+}
+
+/* раскомент перед релизом todo */
+/* @keyframes marquee-infinite {
+   0% {
+      transform: translateX(0%); 
+   }
+   100% {
+      transform: translateX(-100%); 
+   }
+} */
+
+.support-wrapper {
+   margin: 80px auto 60px;
+   max-width: 1220px;
+   /* margin-top: 80px; */
+   
+}
+
+.support {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.support p {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 1.35;
+   text-transform: uppercase;
+   color: #313131;
+   text-align: left;
+}
+
+.support-img {
+   height: 250px;
+}
+
+.text-red {
+   
+   font-weight: 700;
+   color: #f54932;
+}
+
+.announcement {
+   display: flex;
+   margin: 80px auto 60px;
+   max-width: 1220px;
+}
+
+.announcement-block-1 {
+   height: 527px;
+   width: 474px;
+}
+
+.announcement-block-2 {
+   display: flex;
+   flex-direction: column;
+}
+
+.announcement-title {
+   font-family: 'Merriweather', sans-serif;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 1.35;
+   text-transform: uppercase;
+   font-variant-numeric: lining-nums;
+   color: #313131;
+}
+
+
+.red-number {
+   text-decoration: line-through;
+   text-decoration-color: #f54932;
+}
+
+.announcement-table {
+   border-collapse: collapse;
+   width: 100%;
+}
+
+td {
+   border: 2px solid #d0d0d0;; 
+   padding: 8px;
+   text-align: center;
+}
+
+tr:first-child td {
+   border-top: none;
+}
+
+tr:last-child td {
+   border-bottom: none;
+}
+
+tr td:first-child {
+   border-left: none;
+}
+
+tr td:last-child {
+   border-right: none;
+}
+
+.announcement-text {
+   font-family: 'Golos Text', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 1.2;
+   color: #3057a2;
+   margin-top: 48px;
+   text-align: center;
+}
+
+/* main end */
+
+@media (hover: hover) {
+   .button-black:hover {
+      background-color: #fbce51;
+      color: #1f1f1f;
+      transition: background-color 0.4s ease;
+   }
+}
+
+@media (hover: none) {
+   .button-black:active {
+      background-color: #fbce51;
+      color: #1f1f1f;
+      transition: background-color 0,9s ease;
+   }
+}
+
+
+@media (hover: hover) {
+   .button-transparent:hover {
+      background: #1f1f1f;
+      color: #fff;
+      transition: background-color 0.4s ease;
+   }
+}
+
+@media (hover: none) {
+   .button-transparent:active {
+      background: #1f1f1f;
+      color: #fff;
+      transition: background-color 0,9s ease;
+   }
+}
+
+@media (max-width: 1366px) {
+   .header-wrapper {
+      /* width: 100%;
+	height: 100%; */
+   }
+
+   .logo {
+      padding-top: 26px;
+      padding-left: 72px;
+   }
+
+   .title {
+      padding-left: 66px;
+   }
+}
+
+
+
+/* карусель ручное перелистывание
+.carousel-container {
+  width: 800px; /* Ширина карусели */
+  height: 300px; /* Высота карусели */
+  overflow: hidden; /* Скрыть элементы, которые выходят за пределы карусели */
+  position: relative; /* Позиционировать элементы относительно контейнера */
+}
+
+.carousel-list {
+  display: flex; /* Разместить элементы в ряд */
+  transition: none; /* Убрать анимацию перехода */
+}
+
+.carousel-item {
+  flex: 1 0 auto; /* Занять все доступное пространство */
+  margin-right: 20px; /* Добавить отступы между элементами */
+  text-align: center; /* Выровнять текст по центру */
+}
+
+.carousel-item.active {
+  position: absolute; /* Позиционировать активный элемент абсолютно */
+  left: 0; /* Разместить активный элемент слева */
+  width: 100%; /* Занять всю ширину контейнера */
+}
+
+.carousel-item img {
+  width: 100%; /* Занять всю ширину элемента */
+  height: 200px; /* Высота изображения */
+  object-fit: cover; /* Сохранить пропорции изображения, заполняя все пространство */
+}
+
+.carousel-item h2 {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.carousel-item p {
+  font-size: 14px;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px 20px;
+  background-color: #ccc;
+  border: none;
+  cursor: pointer;
+  z-index: 10; /* Поместить кнопки поверх элементов карусели */
+}
+
+.carousel-prev {
+  left: 0;
+}
+
+.carousel-next {
+  right: 0;
+} */
+
+/* карусель цикл
+.carousel-container {
+	width: 1200px; /* Ширина карусели */
+	height: 300px; /* Высота карусели */
+	overflow: hidden; /* Скрыть элементы, которые выходят за пределы карусели */
+	position: relative; /* Позиционировать элементы относительно контейнера */
+}
+
+.carousel-list {
+	display: flex; /* Разместить элементы в ряд */
+	transition: transform 0.4s ease; /* Добавить плавную анимацию перехода */
+}
+
+.carousel-item {
+	flex: 1 0 auto; /* Занять все доступное пространство */
+	margin-right: 20px; /* Добавить отступы между элементами */
+	text-align: center; /* Выровнять текст по центру */
+}
+
+.carousel-item img {
+	width: 100%; /* Занять всю ширину элемента */
+	height: 200px; /* Высота изображения */
+	object-fit: cover; /* Сохранить пропорции изображения, заполняя все пространство */
+}
+
+.carousel-item h2 {
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.carousel-item p {
+	font-size: 14px;
+}  */
